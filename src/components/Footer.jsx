@@ -35,7 +35,7 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-3">Connect</h4>
             <ul className="space-y-2 text-sm">
               <li>📞 07060771730 (Call/WhatsApp)</li>
-              <li>✉️ deyoung_tutorials@gmail.com</li>
+              <li>✉️ deyoungtutorials@gmail.com</li>
             </ul>
           </div>
         </div>
