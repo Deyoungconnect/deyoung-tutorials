@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
-    <section id="home" className="section-padding bg-deyoung-cream">
+    <section id="home" className="section-padding bg-[#f5efe7]">
       <div className="container-content text-center">
-        <h1 className="mb-4">
+        <h1 className="font-logo mb-4">
           Deyoung<span className="text-deyoung-terracotta">Tutorials</span>
         </h1>
         <p className="text-lg md:text-xl text-deyoung-gray max-w-2xl mx-auto mb-3">
