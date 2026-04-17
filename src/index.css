@@ -51,9 +51,16 @@
     font-weight: 700;
     font-size: 3rem;
   }
+  
+  /* New: Footer logo specific class */
+  .font-logo-footer {
+    font-family: 'Cabin Sketch', 'Comic Neue', 'Segoe UI', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
 }
 
-/* Responsive font sizes for logo */
+/* Responsive font sizes for hero logo */
 @media (min-width: 640px) {
   .font-logo {
     font-size: 3.5rem;
@@ -75,5 +82,18 @@
 @media (min-width: 1280px) {
   .font-logo {
     font-size: 5rem;
+  }
+}
+
+/* Footer logo stays the same size on all screens */
+@media (min-width: 768px) {
+  .font-logo-footer {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .font-logo-footer {
+    font-size: 2rem;
   }
 }
