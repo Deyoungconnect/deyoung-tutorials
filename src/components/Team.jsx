@@ -1,6 +1,6 @@
 const Team = () => {
   return (
-    <section className="section-padding bg-white">
+    <section id="team" className="section-padding bg-white">
       <div className="container-content">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <h2>Our Professional Team</h2>

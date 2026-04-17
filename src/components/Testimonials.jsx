@@ -56,7 +56,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="section-padding bg-deyoung-dark-bg">
+    <section id="testimonials" className="section-padding bg-deyoung-dark-bg">
       <div className="container-content">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-white">What Parents & Students Say</h2>
