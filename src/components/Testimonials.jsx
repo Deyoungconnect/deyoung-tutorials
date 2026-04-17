@@ -66,21 +66,21 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index} 
-              className="bg-white/10 backdrop-blur-sm p-6 rounded-md border border-white/20 hover:bg-white/15 transition-all duration-300"
+              className="bg-[#f5efe7] p-6 rounded-md shadow-md hover:shadow-lg transition-all duration-300"
             >
               <div className="text-deyoung-terracotta text-2xl mb-2">
                 {renderStars(testimonial.rating)}
               </div>
               <div className="text-deyoung-terracotta text-5xl mb-3 leading-none">"</div>
-              <p className="text-gray-200 mb-4 leading-relaxed">
+              <p className="text-deyoung-charcoal mb-4 leading-relaxed">
                 {testimonial.text}
               </p>
-              <div className="border-t border-white/20 pt-4">
-                <div className="font-bold text-white text-lg">
+              <div className="border-t border-gray-300 pt-4">
+                <div className="font-bold text-deyoung-navy text-lg">
                   {testimonial.name}
                 </div>
                 <div className="text-sm text-deyoung-terracotta font-medium">
