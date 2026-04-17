@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-[#f5efe7] text-deyoung-charcoal font-sans;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-deyoung-navy font-bold;
+  }
+  
+  h1 {
+    @apply font-logo text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl mb-4;
+  }
+  
+  p {
+    @apply leading-[1.8] mb-4;
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply max-w-[1110px] mx-auto px-[5%];
+  }
+  
+  .btn-primary {
+    @apply bg-[#c44536] text-white font-semibold py-3 px-8 rounded-none hover:bg-opacity-90 transition-all duration-300 inline-block;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-[#c44536] text-[#c44536] font-semibold py-3 px-8 rounded-none hover:bg-[#c44536] hover:text-white transition-all duration-300 inline-block;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-20;
+  }
+}
