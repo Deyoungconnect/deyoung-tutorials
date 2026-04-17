@@ -61,7 +61,7 @@ const Contact = () => {
           <div className="bg-[#f5efe7] p-6 text-center rounded-md">
             <div className="text-3xl mb-2">✉️</div>
             <p className="font-bold text-deyoung-navy">Email</p>
-            <p className="text-deyoung-charcoal">deyoung_tutorials@gmail.com</p>
+            <p className="text-deyoung-charcoal">deyoungtutorials@gmail.com</p>
           </div>
         </div>
 
